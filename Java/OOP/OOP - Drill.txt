@@ -1,0 +1,57 @@
+✅ OOP PRACTICE — DRILL 1 (ENCAPSULATION + CLASS DESIGN)
+
+Build:
+UserAccount class
+Fields (all private):
+
+username
+email
+balance
+
+Methods:
+
+deposit(amount)
+withdraw(amount)
+getBalance()
+updateEmail(newEmail)
+
+Rules:
+
+Balance should NEVER go negative
+Email must contain “@”
+Use getters/setters properly
+
+If you can’t structure this cleanly → your encapsulation is weak.
+
+✅ OOP PRACTICE — DRILL 2 (ABSTRACTION + INTERFACE)
+
+Create an interface:
+PaymentMethod
+
+pay(amount)
+refund(amount)
+
+Create classes:
+
+CardPayment
+UPIPayment
+
+Each must implement logic differently.
+
+If your brain gets stuck designing the methods → your abstraction is weak.
+
+✅ OOP PRACTICE — DRILL 3 (INHERITANCE + POLYMORPHISM)
+
+Base class:
+Notification
+
+message
+send()
+
+Child classes:
+
+EmailNotification
+SMSNotification
+Both override send() differently.
+
+Then create a list of notifications and call send() on each → polymorphism.
