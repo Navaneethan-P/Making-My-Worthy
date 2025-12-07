@@ -1,0 +1,65 @@
+DRILL 1 — ArrayList + Filtering + Mapping
+
+Build a list of students (name, mark).
+Tasks:
+
+Add 10 sample students
+
+Filter names with mark > 80
+
+Sort them in descending order
+
+Print only names
+
+This trains:
+→ iteration
+→ filtering
+→ sorting
+→ mapping
+
+DRILL 2 — HashMap (Your real power)
+
+Create HashMap<String, Integer> for product → price.
+
+Tasks:
+
+Add 10 products
+
+Find product with max price
+
+Remove a product
+
+Update price of one product
+
+Print only products cheaper than 500
+
+This teaches:
+→ key-value logic
+→ map iteration
+→ entryset usage
+
+DRILL 3 — Real-World Mini Feature (Map + List)
+
+Build a “Category Manager” for an e-commerce app
+
+Structure:
+HashMap<String, ArrayList<String>> categories
+
+Example:
+
+“Electronics” → [“Phone”, “Laptop”]
+
+“Clothes” → [“Shirt”, “Jeans”]
+
+Tasks:
+
+Add 3 categories
+
+Add items dynamically
+
+Search: Give a product name → tell which category it belongs to
+
+Remove a product properly
+
+This is the drill that exposes actual skill.
+If you can’t do this, you're not ready for backend or data roles.
